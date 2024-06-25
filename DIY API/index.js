@@ -12,7 +12,7 @@ app.get("/random", (req, res) => {
   const ranNum = Math.floor(Math.random() * jokes.length);
   // console.log(ranJoke);
 
-  res.send(jokes[ranNum]);
+  res.json(jokes[ranNum]);
 });
 
 //2. GET a specific joke
