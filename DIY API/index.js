@@ -11,7 +11,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get("/random", (req, res) => {
   const ranNum = Math.floor(Math.random() * jokes.length);
   // console.log(ranJoke);
-
   res.json(jokes[ranNum]);
 });
 
@@ -19,7 +18,6 @@ app.get("/random", (req, res) => {
 app.get("/jokes/:id", (req, res) => {
   const id = parseInt(req.params.id);
   // console.log(id);
-
   const foundJoke = jokes.find((joke) => joke.id === id);
   res.json(foundJoke);
 });
@@ -32,6 +30,22 @@ app.get("/filter", (req, res) => {
 });
 
 //4. POST a new joke
+app.post("/jokes", (req, res) => {
+  const { jokeType, joke } = req.body;
+
+  if (!jokeType || !joke) {
+    return res.status(400).json({ message: "jokeType and joke are required" });
+  }
+
+  const newJoke = {
+    id: jokes.length + 1,
+    jokeType,
+    joke,
+  };
+
+  jokes.push(newJoke);
+  res.status(201).json(newJoke);
+});
 
 //5. PUT a joke
 
