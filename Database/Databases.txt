@@ -1,0 +1,15 @@
+Databases:
+We Databases for the sole purpose of Data persistance.
+
+Types of Databases:
+1. SQL Databases
+2. NoSQL Databases
+
+SQL Databases
+* Structured Query Language(SQL). A programming Language that allows you to query a database that is that particular structure format.
+* SQL has been around for long. 
+* In SQL, data is stored in a table structure.
+Example:
+i. MySQL
+ii. PostgreSQL
+iii. OracleDB, etc
