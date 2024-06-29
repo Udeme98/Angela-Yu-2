@@ -22,3 +22,25 @@ Example:
 i. MangoDB
 ii. Redis
 iii. DynamoDB, etc
+
+What do SQL do?
+1. SQL can execute queries against a database.
+2. SQL can retrieve data from a database.
+3. SQL can create, update and delete a record.
+4. SQL can create a new database.
+
+RDBMS:
+* Relational Database Management System.
+* The basis for SQL and all modern database system
+* The data in RDBMS is stored in database object called "Table".
+
+Table:
+A table is a collection of related data entries, consisting of 'columns' and 'rows'.
+
+Field:
+* A field is a column in a table that is designed to maintain specific information about every record in a table.
+* A 'column' is a vertical entry that contains all information associated with a specific field in a table.
+
+Record:
+* A record, also called a 'row', is each individual entry that exist in a table. 
+* A record is a horizontal entry in a table.
