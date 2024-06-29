@@ -13,3 +13,12 @@ Example:
 i. MySQL
 ii. PostgreSQL
 iii. OracleDB, etc
+
+NoSQL Databases
+* The database is more flexible.
+* Uses key/value pair to store data.
+* You can change the structure of your data afterwards without changing the entire database.
+Example:
+i. MangoDB
+ii. Redis
+iii. DynamoDB, etc
