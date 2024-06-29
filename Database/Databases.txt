@@ -44,3 +44,14 @@ Field:
 Record:
 * A record, also called a 'row', is each individual entry that exist in a table. 
 * A record is a horizontal entry in a table.
+
+Some Important SQL Commands:
+* SELECT - Extracts data from a database.
+* UPDATE - Updates data in a database
+* DELETE - Deletes data in a database
+* INSERT INTO - Inserts data in a database
+* CREATE DATABASE - Creates a new database
+* ALTER DATABASE - Modifies a new database
+* DROP TABLE - Deletes a table
+* CREATE INDEX - Creates an index(Search Key)
+* DROP INDEX - Deletes an index
