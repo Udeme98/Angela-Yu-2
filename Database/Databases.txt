@@ -54,4 +54,4 @@ Some Important SQL Commands:
 * ALTER DATABASE - Modifies a new database
 * DROP TABLE - Deletes a table
 * CREATE INDEX - Creates an index(Search Key)
-* DROP INDEX - Deletes an index
+* DROP INDEX - Deletes an index.
