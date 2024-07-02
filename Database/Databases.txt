@@ -55,3 +55,9 @@ Some Important SQL Commands:
 * DROP TABLE - Deletes a table
 * CREATE INDEX - Creates an index(Search Key)
 * DROP INDEX - Deletes an index.
+
+SQL SELECT Statement:
+*The SELECT statement is used to select data from a database.
+Syntax:
+SELECT column1, column2,...
+FROM table_name;
