@@ -1,6 +1,11 @@
 Databases:
 A database is a collection of related information, that can be stored in different ways. We use Databases for the sole purpose of Data persistance.
 
+Database Management System(DBMS):
+A special software program that helps user create and maintain a Database, making it easy to manage large amount of information.
+
+
+
 Types of Databases:
 1. SQL Databases
 2. NoSQL Databases
