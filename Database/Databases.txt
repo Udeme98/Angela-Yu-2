@@ -4,7 +4,8 @@ A database is a collection of related information, that can be stored in differe
 Database Management System(DBMS):
 A special software program that helps user create and maintain a Database, making it easy to manage large amount of information.
 
-
+Database Queries:
+Queries are request made to the DBMS for specific information. 
 
 Types of Databases:
 1. SQL Databases
