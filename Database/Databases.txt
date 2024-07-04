@@ -55,6 +55,9 @@ Record:
 Primary Key:
 This key would always be unique for each record/row in a table.
 
+Foreign Key:
+Foreign key links one table to another table. Stores the primary key of a row in another DB table.
+
 Some Important SQL Commands:
 * SELECT - Extracts data from a database.
 * UPDATE - Updates data in a database
