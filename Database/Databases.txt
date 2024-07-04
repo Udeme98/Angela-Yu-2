@@ -1,5 +1,5 @@
 Databases:
-We Databases for the sole purpose of Data persistance.
+We use Databases for the sole purpose of Data persistance.
 
 Types of Databases:
 1. SQL Databases
@@ -8,6 +8,7 @@ Types of Databases:
 SQL Databases
 * Structured Query Language(SQL). A programming Language that allows you to query a database that is that particular structure format.
 * SQL has been around for long. 
+* Also known as Relational Databases.
 * In SQL, data is stored in a table structure.
 Example:
 i. MySQL
@@ -59,5 +60,5 @@ Some Important SQL Commands:
 SQL SELECT Statement:
 *The SELECT statement is used to select data from a database.
 Syntax:
-_SELECT column1, column2,..._
-_FROM table_name;_
+SELECT column1, column2,...
+FROM table_name;
