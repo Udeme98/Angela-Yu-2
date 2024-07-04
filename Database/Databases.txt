@@ -1,5 +1,5 @@
 Databases:
-We use Databases for the sole purpose of Data persistance.
+A database is a collection of related information, that can be stored in different ways. We use Databases for the sole purpose of Data persistance.
 
 Types of Databases:
 1. SQL Databases
